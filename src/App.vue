@@ -2,20 +2,19 @@
   <ejs-pivotview :dataSourceSettings="dataSourceSettings" :height="height" :width="width" :showFieldList="showFieldList" :showGroupingBar="showGroupingBar" :allowCalculatedField="allowCalculatedField">
   </ejs-pivotview>
 </template>
-
 <script>
 import {
   PivotViewComponent, FieldList, GroupingBar, CalculatedField
 } from "@syncfusion/ej2-vue-pivotview";
 import "../node_modules/@syncfusion/ej2-base/styles/material.css";
-import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
-import "../node_modules/@syncfusion/ej2-calendars/styles/material.css";
-import "../node_modules/@syncfusion/ej2-dropdowns/styles/material.css";
 import "../node_modules/@syncfusion/ej2-inputs/styles/material.css";
-import "../node_modules/@syncfusion/ej2-navigations/styles/material.css";
+import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+import "../node_modules/@syncfusion/ej2-dropdowns/styles/material.css";
+import "../node_modules/@syncfusion/ej2-lists/styles/material.css";
 import "../node_modules/@syncfusion/ej2-popups/styles/material.css";
-import "../node_modules/@syncfusion/ej2-pivotview/styles/material.css";
-import "../node_modules/@syncfusion/ej2-vue-grids/styles/material.css";
+import "../node_modules/@syncfusion/ej2-navigations/styles/material.css";
+import "../node_modules/@syncfusion/ej2-grids/styles/material.css";
+import "../node_modules/@syncfusion/ej2-vue-pivotview/styles/material.css";
 
 export default {
   name: "App",
